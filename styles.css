@@ -1,0 +1,90 @@
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #3a6186, #89253e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.app-bar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 35px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.waitlist-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.waitlist-form input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.waitlist-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f04b4b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.waitlist-form button:hover {
+    background-color: #d93a3a;
+}
+
+#msg {
+    color: #61b752;
+    margin-top: 10px;
+    display: block;
+    font-weight: bolder;
+}
